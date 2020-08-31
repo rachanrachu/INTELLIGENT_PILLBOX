@@ -35,11 +35,11 @@ GPIO.setup(Shoe_Key, GPIO.IN)
 GPIO.setup(IR_Obstacle, GPIO.IN)
 ##GPIO.setup(Accelerometer, GPIO.IN)
 
-GPIO.setup(RF_TX1, GPIO.OUT)
+GPIO.setup(RF_TX1, GPIO.IN)
 GPIO.setup(Motor_1, GPIO.OUT)
 GPIO.setup(Motor_2, GPIO.OUT)
 
-GPIO.output(RF_TX1, GPIO.LOW)
+GPIO.output(RF_TX1, GPIO.HIGH)
 GPIO.output(Motor_1, GPIO.LOW)
 GPIO.output(Motor_2, GPIO.LOW)
 
